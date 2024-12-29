@@ -44,7 +44,7 @@ function matchCards(cardOneImg, cardTwoImg) {
         cardTwo.classList.remove("shake", "flip");
         cardOne = cardTwo = "";
         disableDeck = false;
-    }, 1200)
+    }, 600)
 }
 
 function shuffleCards() {

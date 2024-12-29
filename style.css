@@ -16,14 +16,48 @@ body {
 }
 
 .title {
-    position: absolute;
-    top: 80px;
-    right: 326px;
+    position: absolute; 
+    top: 15px;
+    left:500px;
     text-align: center;
     font-size: 24px;
-    font-weight: 500;
-    color: wheat;
+    font-weight: 600; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px; 
 }
+
+.title h2 {
+    text-align: center;
+    font-size: 32px; /* Larger size for more prominence */
+    font-weight: 700; /* Enhanced font weight */
+    color: #ffeb3b; /* Bright yellow for attention */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); /* Added shadow for pop */
+    animation: fadeIn 1.5s ease-in-out; /* Smooth fade-in effect */
+    margin-bottom: 10px;
+}
+
+.title h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffcc80; /* Warm orange for a friendly tone */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 2s ease-in-out; /* Slightly delayed fade-in */
+    opacity: 0.9;
+}
+
+/* Animation for fade-in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 .wrapper {
     height: 400px;
